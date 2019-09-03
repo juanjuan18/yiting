@@ -1,0 +1,93 @@
+﻿.ax_default {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#666666;
+  text-align:center;
+  line-height:normal;
+}
+._默认样式 {
+}
+.image {
+}
+.box_3 {
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.paragraph {
+  text-align:left;
+}
+.button {
+}
+.box_2 {
+}
+.ellipse {
+}
+.line {
+}
+.radio_button {
+  text-align:left;
+}
+.html_button {
+  text-align:center;
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.heading_3 {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:center;
+}
+._文本段落 {
+  text-align:left;
+}
+.icon {
+}
+._一级标题 {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._二级标题 {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.flow_shape {
+}
+._三级标题 {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._图片 {
+}
+._文本链接 {
+  color:#0000FF;
+}
+._流程形状 {
+  color:#333333;
+}
+.box_1 {
+}
+._鼠标按下文本链接时 {
+}
