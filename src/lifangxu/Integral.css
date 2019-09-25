@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none !important;
+}
+header{
+    width: 10rem;
+    background: #868686;
+    position: fixed;
+    z-index: 100;
+    display: block !important;
+}   
+#Record .headContent{
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+#Record .headContent span{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: .373333rem;
+    left: 0;
+}
+#Record .headContent a:nth-child(1){
+    position: absolute;
+    left: 0;
+    height: 1.066667rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    z-index: 2;
+}
+#Record .headContent a:nth-child(3){
+    position: absolute;
+    right: 0;
+    height: 1.066667rem;
+    color: #fff;
+    text-decoration: none;
+    z-index: 2;
+} 
+#Record .headContent i{
+    font-size: .32rem;
+}
+
+#Record .Integral{
+    /* padding-top: 2.666667rem    ; */
+    height: 17.786667rem;
+    background: rgb(240, 237, 237);
+    /* position: absolute;
+    top: 2.133333rem;
+    left: 0; */
+}
+#Record .Integral .big_content{
+    width: 100%;
+    padding-top: 1.066667rem !important;
+    height: 16.72rem;
+}
+#Record  .top_content{
+    width: 100%;
+    height: 7.466667rem;
+    padding-top: .533333rem !important;
+    background: url(../images/jifen.png) no-repeat ;
+    background-size: 100% ;
+    position: relative;
+}
+#Record .top_content span{
+    font-size: .426667rem;
+    color: white;
+}
+#Record .top_content .second{
+    font-size: .426667rem;
+    color: #16BE10 !important;
+}
+#Record .top_content .first_title{
+    margin-left: .533333rem !important;
+}
+#Record .top_content a{
+    width: 2rem;
+    height: .8rem;
+    line-height: .8rem !important;
+    float: right;
+    background: #16BE10 !important;
+    color: white;
+    font-size: .373333rem !important;
+    text-align: center;
+    padding:0  .186667rem;
+    border-radius: .533333rem 0 0 .533333rem    !important ;
+}
+#Record .top_content .xiaoxi{
+    width: 4rem;
+    height: .533333rem;
+    font-size: .373333rem;
+    font-weight: 600;
+    color: #4BD863;
+    position: absolute;
+    left: calc(50% - 2rem);
+    top: 3.733333rem;
+    background: #666666;
+    text-align: center;
+}
+
+#Record .big_content .jifen{
+    width: 100%;
+    height: 1.333333rem;
+    background: #fff;
+    line-height: 1.333333rem;
+    color: #868686;
+    font-size: .373333rem;
+    border-bottom: 1px solid #dedede;
+    padding-top: 0 !important;
+
+}
+#Record .big_content .jifen a{
+    width: 9.066667rem;
+    height: 1.333333rem;
+    background: #fff;
+    display: block;
+    line-height: 1.333333rem;
+    color: #868686;
+    font-size: .373333rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+#Record .jifen .icon-left-angle{
+    font-size: .48rem;
+    vertical-align: middle;
+    float: right;
+}

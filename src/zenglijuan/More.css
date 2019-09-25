@@ -1,0 +1,30 @@
+.zhanwe{
+    padding-top: 1.333333rem;
+}
+.list{
+    width: 10rem;
+    line-height: 1.066667rem;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    font-size: .373333rem;
+}
+.Content{
+    width: 9.466667rem;
+    margin: 0 auto;
+    display: block;
+    color: #333;
+}
+.list .icon-left-angle{
+    float: right;
+    color:  #999;
+}
+.span1{
+    float: right;
+    color:  #999;
+}
+footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+}

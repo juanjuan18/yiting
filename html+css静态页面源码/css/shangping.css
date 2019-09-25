@@ -1,0 +1,105 @@
+body a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+header a {
+  z-index: 15;
+}
+section {
+  width: 10rem;
+  height: 25.866667rem;
+  background-color: #f2f2f2;
+  left: 0;
+}
+section .tou {
+  padding-top: 1.066667rem;
+  background-color: #f2f2f2;
+}
+section .message {
+  width: 9.466667rem;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .266667rem;
+  background-color: white;
+}
+section .message .tu {
+  width: 9.466667rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+section .message .tu img {
+  width: 9.466667rem;
+}
+section .message .wenzi {
+  width: 8.8rem;
+  height: 1.333333rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .message .wenzi h4 {
+  font-size: .48rem;
+  margin-top: .133333rem;
+}
+section .message .wenzi p {
+  margin-top: .133333rem;
+  color: #d1c9c9;
+}
+section .message .shuoming {
+  width: 8.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .666667rem;
+}
+section .message .shuoming h5 {
+  font-weight: 700;
+}
+section .message .shuoming ol {
+  margin-left: .373333rem;
+}
+section .message .shuoming ol li {
+  list-style-type: decimal;
+  margin-top: .133333rem;
+}
+section .message .shengming {
+  width: 8.8rem;
+  margin-top: .666667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .message .shengming h5 {
+  font-weight: 700;
+}
+section .message .shengming ol {
+  margin-left: .373333rem;
+}
+section .message .shengming ol li {
+  list-style-type: decimal;
+  margin-top: .133333rem;
+}
+section .dingdan {
+  width: 9.466667rem;
+  height: 2.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .266667rem;
+  background-color: white;
+}
+section .dingdan div {
+  width: 8.8rem;
+  height: 2.133333rem;
+  padding-top: .3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .dingdan div p {
+  margin-top: .2rem;
+}

@@ -1,0 +1,65 @@
+.list{
+    width: 10rem;
+    line-height: 1.066667rem;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    font-size: .373333rem;
+}
+.Content{
+    width: 9.466667rem;
+    margin: 0 auto;
+    display: block;
+    color: #333;
+}
+.list .icon-left-angle{
+    float: right;
+    color:  #999;
+}
+.list .span1{
+    height: 1.066667rem;
+    float: right;
+    color:  #999;
+}
+.span1 img{
+    width: 1.066667rem;
+    height: 1.066667rem;
+    border-radius: 50%;
+}
+
+.tanceng1{
+    width: 375px;
+    height: 667px;
+    background:rgba(0,0,0,0.1);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.select1{
+    width: 375px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.select1 a{
+    display: block;
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+    color: #3478F7;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    background: #fff;
+}
+.select1 a:nth-child(1){
+    border-radius:20px 20px 0 0;
+    border-bottom: 1px solid #eee;
+}
+.select1 a:nth-child(2){
+    margin-bottom: 10px;
+    border-radius: 0 0 20px 20px;
+}
+.select1 a:nth-child(3){
+    margin-bottom: 8px;
+    border-radius:20px;
+}

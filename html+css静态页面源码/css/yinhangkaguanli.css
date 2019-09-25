@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+header{
+    width: 10rem;
+    background: #868686;
+}
+.headContent{
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+.headContent span{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: .373333rem;
+    left: 0;
+}
+.headContent a:nth-child(1){
+    position: absolute;
+    left: 0;
+    height: 1.066667rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    z-index: 3;
+}
+.headContent a:nth-child(3){
+    position: absolute;
+    right: 0;
+    height: 1.066667rem;
+    color: #fff;
+    text-decoration: none;
+    z-index: 3;
+} 
+.headContent i{
+    font-size: .32rem;
+}
+.bodycontainer{
+    width: 100%;
+}
+.cardmannger{
+    width: 9.466667rem;
+    margin: .8rem auto;
+}
+.cardmannger div{
+    width: 8.666667rem;
+    height: 2.933333rem;
+    margin: .533333rem auto;
+    border-radius: .4rem;
+    position: relative;
+}
+.bodycontainer .cardmannger img{
+    width: .96rem;
+    height: .96rem;
+    position: absolute;
+    left:.266667rem;
+    top: .266667rem;
+
+}
+.card1{
+    background-color: #ff9775;
+}
+.card2{
+    background-color: #54a97f;
+}
+.card3{
+    background-color: #0d9efc;
+}
+
+.cardmannger h3{
+    color: white;
+    font-size: .533333rem;
+    margin-left: 1.866667rem;
+    margin-top: .533333rem;
+}
+.cardmannger p{
+    font-size: .373333rem;
+    margin-left: 1.866667rem;
+    color: white;
+}
+.cardmannger h2{
+    margin-left: 1.866667rem;
+    margin-top: .4rem;
+    color: white;
+    font-size: .426667rem;
+}
+.addcard{
+ 
+    
+}
+.addcard img{
+    width: 1.066667rem;
+    height: 1.066667rem;
+    margin-left: calc(50% - 0.533333rem);
+    text-align: center；
+}
+.addcard p{
+    font-size: .426667rem;
+    text-align: center;
+    margin: .266667rem 0;
+
+}
+.bodycontainer a{
+    color: #868686;
+}
+footer{
+    width: 100%;
+    height: 1.333333rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+footer ul{
+    height: 1.6rem;
+    width: 9.466667rem;
+}
+footer ul li .iconfont{
+    font-size: .426667rem;
+    color:#928f8f;
+    margin-top: .213333rem;
+}
+footer ul li{
+    float: left;
+    height: 1.333333rem;
+    width: 2.3664rem;
+    text-align: center;
+    font-size: .373333rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #928f8f;
+}
+footer ul li:hover a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+footer ul li:hover .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li a{
+    height: 1.333333rem;
+    width: 2.5rem;
+    float: left;
+    text-decoration: none;
+    color: #928f8f;
+}

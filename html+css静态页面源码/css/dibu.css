@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    height: 1.333333rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+@font-face{
+    font-family: 'dibu';
+    src: url(../fonts/iconfont.eot),
+    url(../fonts/iconfont.ttf),
+    url(../fonts/iconfont.woff),
+    url(../fonts/iconfont.woff2);
+}
+footer ul{
+    height: 1.6rem;
+}
+footer ul li .iconfont{
+    font-size: .426667rem;
+    color:#928f8f;
+    margin-top: .213333rem;
+}
+footer ul li{
+    float: left;
+    height: 1.333333rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: .373333rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #928f8f;
+}
+footer ul li:hover a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+footer ul li:hover .iconfont{
+    color: rgb(37, 37, 37);
+}
+
+footer ul li a{
+    height: 1.333333rem;
+    width: 2.5rem;
+    float: left;
+    text-decoration: none;
+    color: #928f8f;
+}

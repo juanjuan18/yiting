@@ -1,0 +1,118 @@
+.login{
+    height: 5.226667rem;
+    width: 10rem;
+    text-align: center;
+    background: url(../images/b167f4d2dad1.jpg);
+    background-size: 100% 100%;
+}
+.big{
+    min-height: 17.786667rem;
+}
+.zhanwei{
+    padding-top: 1.066667rem;
+}
+.Avatar{
+    padding-top: 1.066667rem;
+    margin-bottom: .266667rem;
+}
+.login a{
+    font-size: .373333rem;
+    color: #666;
+    display: inline-block;
+    background: #fff;
+    opacity: 0.7;
+}
+.Avatar a{
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 50%;
+}
+.log-in-Register a{
+    width: 2.853333rem;
+    height: .88rem;
+    line-height: .88rem;
+}
+
+/* 钱包，优惠券，积分 */
+.money{
+    width: 10rem;
+    font-size: 0;
+    background: #fff;
+}
+.three{
+    width: 3.333333rem;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    line-height: 1.333333rem;
+    text-align: center;
+    color: #666;
+    font-size: .32rem;
+    box-sizing: border-box;
+}
+.qianbao{
+    border-right: 1px solid #eee;
+}
+.youhuiquan{
+    border-right: 1px solid #eee;
+}
+.three .iconfont{
+    color: #E6A13A;
+    font-size: .48rem;
+    margin-right: .133333rem;
+}
+/* 功能 */
+.function{
+    margin: 0 auto;
+    background: #fff;
+}
+.four{
+    float: left;
+    width: 2.5rem;
+    margin: .266667rem 0;
+    text-align: center;
+    color: #666;
+}
+.four .iconfont{
+    color: #515151;
+}
+.four p{
+    margin-top: .133333rem;
+}
+
+
+/* 列 */
+.list{
+    width: 10rem;
+    line-height: 1.066667rem;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+.Content{
+    width: 9.466667rem;
+    margin: 0 auto;
+    display: block;
+    color: #333;
+}
+.icon-left-angle{
+    color:  #999;
+    float: right;
+}
+.span1{
+    float: right;
+    color:  #999;
+}
+
+footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+}
+footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+    /* font-weight: 600; */
+  }
+  footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+  }

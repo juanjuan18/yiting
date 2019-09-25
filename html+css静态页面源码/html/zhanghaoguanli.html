@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>更多</title>
+    <link rel="stylesheet" type="text/css" href="../css/zhanghaoguanli.css" />
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dibuhetoubu.css" />
+</head>
+
+<body>
+    <header>
+        <div class="headContent clearfix">
+            <a href="gerenzhongxin.html"><i class="iconfont icon-arrow-left"></i>返回</a>
+            <span>账号管理</span>
+        </div>
+    </header>
+    <section class="list">
+        <div class="Content">头像
+            <a class="span1 " id="headImg">
+                <img src="../images/mp30382019_1441184413789_10.jpeg" alt="">
+                <i class="iconfont icon-left-angle"></i>
+            </a>
+        </div>
+    </section>
+    <section class="list">
+        <div href="nichenggenggai.html" class="Content">昵称
+            <a href="nichenggenggai.html" class="span1">远方
+                <i class="iconfont icon-left-angle"></i>
+            </a>
+        </div>
+    </section>
+    <section class="list">
+        <div class="Content">性别
+            <a class="span1" id="Name">未设置
+                <i class="iconfont icon-left-angle"></i>
+            </a>
+        </div>
+    </section>
+    <section class="list">
+        <div href="bangdingshouji.html" class="Content">手机号码
+            <a href="bangdingshouji.html" class="span1">去绑定
+                <i class="iconfont icon-left-angle"></i>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="../index.html">
+                    <div class="iconfont icon-fangzi2"></div>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="cheweiyuding.html">
+                    <div class="iconfont icon-che"></div>
+                    <span>车位预订</span>
+                </a>
+            </li>
+            <li>
+                <a href="qianbao.html">
+                    <div class="iconfont icon-qianbi1"></div>
+                    <span>钱包</span>
+                </a>
+            </li>
+            <li>
+                <a href="gerenzhongxin.html">
+                    <div class="iconfont icon-icon-test1"></div>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <div class="tanceng1" id="dialog">
+        <div class="select1">
+            <a href="#">拍照</a>
+            <a href="#">从相机选择</a>
+            <a href="zhanghaoguanli.html">取消</a>
+        </div>
+        <!-- <i id="closeDialog">关闭</i> -->
+    </div>
+    <div class="tanceng1" id="tanceng">
+        <div class="select1">
+            <a href="nan.html">男</a>
+            <a href="nv.html">女</a>
+            <a href="zhanghaoguanli.html">取消</a>
+        </div>
+    </div>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <script>
+        var headImg = document.getElementById('headImg')
+        var dialog = document.getElementById('dialog')
+        // var closeDialog = document.getElementById('closeDialog')
+        headImg.onclick = function () {
+            dialog.style.display = "block";
+        }
+        // closeDialog.onclick = function () {
+        //     dialog.style.display = "none";
+        // }
+    </script>
+    <script>
+        var Name = document.getElementById('Name')
+        var tanceng = document.getElementById('tanceng')
+        Name.onclick = function () {
+            tanceng.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

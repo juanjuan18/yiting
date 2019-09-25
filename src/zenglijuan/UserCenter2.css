@@ -1,0 +1,119 @@
+#UserCenter2 .login{
+    height: 5.226667rem !important;
+    width: 10rem !important;
+    text-align: center !important;
+    background: url(./images/b167f4d2dad1.jpg);
+    background-size: 100% 100% !important;
+    /* margin-top:50px !important; */
+}
+
+#UserCenter2 .zhanweiwei{
+    display: block;
+    padding-top: 1.066667rem !important;
+}
+#UserCenter2 .Avatar{
+    padding-top: 1.066667rem;
+    margin-bottom: .266667rem;
+}
+#UserCenter2 .login a{
+    font-size: .373333rem;
+    color: #666;
+    display: inline-block;
+    background: #fff;
+    opacity: 0.7;
+}
+#UserCenter2 .Avatar a{
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 50%;
+}
+#UserCenter2 .log-in-Register a{
+    width: 2.853333rem;
+    height: .88rem;
+    line-height: .88rem;
+}
+
+/* 钱包，优惠券，积分 */
+#UserCenter2 .money{
+    width: 10rem;
+    font-size: 0;
+    background: #fff;
+}
+#UserCenter2 .three{
+    width: 3.333333rem;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    line-height: 1.333333rem;
+    text-align: center;
+    color: #666;
+    font-size: .32rem !important;
+    box-sizing: border-box;
+}
+#UserCenter2 .qianbao{
+    border-right: 1px solid #eee;
+}
+#UserCenter2 .youhuiquan{
+    border-right: 1px solid #eee;
+}
+#UserCenter2 .three .iconfont{
+    color: #E6A13A;
+    font-size: .48rem !important;
+    margin-right: .133333rem !important;
+}
+/* 功能 */
+#UserCenter2 .function{
+    margin: 0 auto !important;
+    background: #fff;
+}
+#UserCenter2 .four{
+    float: left;
+    width: 2.5rem;
+    margin: .266667rem 0 !important;
+    text-align: center;
+    color: #666;
+}
+#UserCenter2 .four .iconfont{
+    font-size: .426667rem !important;
+    color: #515151;
+}
+#UserCenter2 .four p{
+    margin-top: .133333rem !important;
+}
+
+
+/* 列 */
+#UserCenter2 .list{
+    width: 10rem;
+    line-height: 1.066667rem;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+#UserCenter2 .Content{
+    width: 9.466667rem;
+    margin: 0 auto !important;
+    display: block;
+    color: #333;
+}
+#UserCenter2 .icon-left-angle{
+    color:  #999;
+    float: right;
+}
+#UserCenter2 .span1{
+    float: right;
+    color:  #999;
+}
+
+#UserCenter2 footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+}
+#UserCenter2 footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+}
+#UserCenter2 footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+  }
+  #UserCenter2  footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+  }

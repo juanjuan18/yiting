@@ -1,0 +1,293 @@
+body a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+header a {
+  z-index: 15;
+}
+section {
+  background-color: #f2f2f2;
+  left: 0;
+}
+section .jifen {
+  padding-top: 1.066667rem;
+  width: 10rem;
+  height: 1.3rem;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+section .jifen .left {
+  float: left;
+  margin-left: .266667rem;
+  line-height: 1.333333rem;
+}
+section .jifen .left i {
+  color: yellow;
+}
+section .jifen .right {
+  float: right;
+  margin-right: .266667rem;
+  line-height: 1.333333rem;
+}
+section .jifen .right i {
+  color: yellow;
+}
+section .tupian {
+  width: 10rem;
+  height: 4rem;
+}
+section .tupian img {
+  width: 10rem;
+  height: 4rem;
+}
+section .huodong {
+  width: 10rem;
+  height: 2.666667rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+section .huodong div {
+  width: 2.4rem;
+  height: 2.666667rem;
+  text-align: center;
+}
+section .huodong div img {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-top: .4rem;
+}
+section .huodong div p {
+  color: #868686;
+  font-size: .373333rem;
+}
+section .quan {
+  width: 10rem;
+  height: 5.866667rem;
+  background-color: white;
+}
+section .quan .quan_con {
+  width: 9.466667rem;
+  height: 5.866667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .quan .quan_con h5 {
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+}
+section .quan .quan_con .quan_left {
+  width: 4.533333rem;
+  height: 4.8rem;
+  float: left;
+}
+section .quan .quan_con .quan_left div {
+  width: 4.533333rem;
+}
+section .quan .quan_con .quan_left div img {
+  width: 4.533333rem;
+  background-color: #5dbbd8;
+}
+section .quan .quan_con .quan_left p {
+  margin-top: .133333rem;
+}
+section .quan .quan_con .quan_left .red {
+  color: red;
+}
+section .quan .quan_con .quan_left a {
+  display: block;
+  float: right;
+  width: 1.333333rem;
+  height: .666667rem;
+  line-height: .666667rem;
+  background-color: #c1cac8;
+  text-align: center;
+  border-radius: .266667rem;
+}
+section .quan .quan_con .quan_right {
+  width: 4.533333rem;
+  height: 4.8rem;
+  float: right;
+}
+section .quan .quan_con .quan_right div {
+  width: 4.533333rem;
+}
+section .quan .quan_con .quan_right div img {
+  width: 4.533333rem;
+  background-color: #5dbbd8;
+}
+section .quan .quan_con .quan_right p {
+  margin-top: .133333rem;
+}
+section .quan .quan_con .quan_right .red {
+  color: red;
+}
+section .quan .quan_con .quan_right a {
+  display: block;
+  float: right;
+  width: 1.333333rem;
+  height: .666667rem;
+  line-height: .666667rem;
+  background-color: #c1cac8;
+  text-align: center;
+  border-radius: .266667rem;
+}
+section .shangping {
+  width: 10rem;
+  height: 5.866667rem;
+  background-color: white;
+}
+section .shangping .quan_con {
+  width: 9.466667rem;
+  height: 5.866667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .shangping .quan_con h5 {
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+}
+section .shangping .quan_con .quan_left {
+  width: 4.533333rem;
+  height: 4.8rem;
+  float: left;
+}
+section .shangping .quan_con .quan_left div {
+  width: 4.533333rem;
+  border: 1px solid #eee;
+}
+section .shangping .quan_con .quan_left div img {
+  width: 4.533333rem;
+}
+section .shangping .quan_con .quan_left p {
+  margin-top: .133333rem;
+}
+section .shangping .quan_con .quan_left .red {
+  color: red;
+}
+section .shangping .quan_con .quan_left a {
+  display: block;
+  float: right;
+  width: 1.333333rem;
+  height: .666667rem;
+  line-height: .666667rem;
+  background-color: #c1cac8;
+  text-align: center;
+  border-radius: .266667rem;
+}
+section .shangping .quan_con .quan_right {
+  width: 4.533333rem;
+  height: 4.8rem;
+  float: right;
+}
+section .shangping .quan_con .quan_right div {
+  width: 4.533333rem;
+  border: 1px solid #eee;
+}
+section .shangping .quan_con .quan_right div img {
+  width: 4.533333rem;
+}
+section .shangping .quan_con .quan_right p {
+  margin-top: .133333rem;
+}
+section .shangping .quan_con .quan_right .red {
+  color: red;
+}
+section .shangping .quan_con .quan_right a {
+  display: block;
+  float: right;
+  width: 1.333333rem;
+  height: .666667rem;
+  line-height: .666667rem;
+  background-color: #c1cac8;
+  text-align: center;
+  border-radius: .266667rem;
+}
+section .tuijian {
+  width: 10rem;
+  height: 5.866667rem;
+  background-color: white;
+}
+section .tuijian .quan_con {
+  width: 9.466667rem;
+  height: 5.866667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .tuijian .quan_con h5 {
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+}
+section .tuijian .quan_con .quan_left {
+  width: 4.533333rem;
+  height: 4.8rem;
+  float: left;
+}
+section .tuijian .quan_con .quan_left div {
+  width: 4.533333rem;
+  border: 1px solid #eee;
+}
+section .tuijian .quan_con .quan_left div img {
+  width: 4.533333rem;
+}
+section .tuijian .quan_con .quan_left p {
+  margin-top: .133333rem;
+}
+section .tuijian .quan_con .quan_left .red {
+  color: red;
+}
+section .tuijian .quan_con .quan_left a {
+  display: block;
+  float: right;
+  width: 1.333333rem;
+  height: .666667rem;
+  line-height: .666667rem;
+  background-color: #c1cac8;
+  text-align: center;
+  border-radius: .266667rem;
+}
+section .tuijian .quan_con .quan_right {
+  width: 4.533333rem;
+  height: 4.8rem;
+  float: right;
+}
+section .tuijian .quan_con .quan_right div {
+  width: 4.533333rem;
+  border: 1px solid #eee;
+}
+section .tuijian .quan_con .quan_right div img {
+  width: 4.533333rem;
+}
+section .tuijian .quan_con .quan_right p {
+  margin-top: .133333rem;
+}
+section .tuijian .quan_con .quan_right .red {
+  color: red;
+}
+section .tuijian .quan_con .quan_right a {
+  display: block;
+  float: right;
+  width: 1.333333rem;
+  height: .666667rem;
+  line-height: .666667rem;
+  background-color: #c1cac8;
+  text-align: center;
+  border-radius: .266667rem;
+}
+section .dibu {
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}

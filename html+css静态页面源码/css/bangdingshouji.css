@@ -1,0 +1,37 @@
+
+
+.search{
+    margin-top: .8rem;
+    position: relative;
+    text-align: center;
+}
+.verification input{
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    text-indent: 1em;
+    color: #BCBCBC;
+    font-size: .373333rem;
+}
+.verification .a2{
+    margin: 0 auto;
+    margin-top: 1.066667rem;
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border-radius: .8rem;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height:  1.066667rem;
+    background: #1296DB;
+    opacity: 0.7;
+    text-decoration: none;
+}
+footer ul li a{
+    height: 1.333333rem;
+    width: 2.5rem;
+    float: left;
+    text-decoration: none;
+    color: #928f8f;
+}

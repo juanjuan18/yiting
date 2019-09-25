@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  a:hover {
+    text-decoration: none !important;
+  }
+  .clearfix::after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+  }
+  body {
+    background: #F2F2F2;
+  }
+  #Balance header {
+    width: 10rem;
+    line-height: 1.066667rem;
+    color: #fff;
+    font-size: .373333rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #868686;
+  }
+  #Balance header .headContent {
+    width: 9.466667rem;
+    margin: 0 auto;
+  }
+  #Balance header .headContent a {
+    float: left;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+  }
+  #Balance header .headContent .headContent a:nth-child(2) {
+    float: right;
+    color: #fff;
+    font-size: .373333rem;
+  }
+  #Balance .icon-wenhao {
+    float: right !important;
+    font-size: .48rem !important;
+  }
+  #Balance .Wallet {
+    width: 10rem;
+    min-height: 17rem !important;
+    background-color: #F2F2F2;
+  }
+  #Balance .details {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1.066667rem !important;
+    /* border-top: 1px solid #F2F2F2; */
+    color: #fff;
+    background: #868686;
+  }
+  #Balance .details h1 {
+    font-size: .8rem;
+    padding-top: .266667rem !important;
+    margin-left: .266667rem !important;
+  }
+  #Balance .details h6 {
+    margin-left: .266667rem !important;
+  }
+  #Balance .details h4:nth-child(1) {
+    padding-top: .8rem !important;
+    margin-left: .266667rem !important;
+    font-size: .373333rem;
+  }
+  #Balance .details h4:nth-child(2) {
+    float: right;
+    margin-right: .533333rem !important;
+    font-size: .373333rem;
+  }
+  #Balance .details h4:nth-child(2) a {
+    color: #fff;
+  }
+  #Balance .money {
+    width: 100%;
+    height: 4.533333rem;
+  }
+  #Balance .money p {
+    margin: .266667rem 0 0 .266667rem !important;
+    font-size: .426667rem;
+    color: #868686;
+  }
+  #Balance .money button {
+    width: 2.933333rem;
+    height: .933333rem;
+    margin: .266667rem 0 0 .266667rem !important;
+    border: none;
+    border-radius: .133333rem;
+    background: #fff;
+    font-size: .373333rem;
+  }
+  #Balance .money input {
+    width: 9.466667rem;
+    height: .933333rem;
+    margin: .266667rem 0 0 .266667rem !important;
+    font-size: .426667rem;
+    text-align: center;
+    border: none;
+    border-radius: .133333rem;
+    color: #868686;
+  }
+  #Balance button:hover {
+    background: #868686;
+    color: #fff;
+  }
+  #Balance .payment {
+    width: 100%;
+  }
+  #Balance .payment p:first-child{
+    padding: .266667rem 0 .266667rem .266667rem !important;
+    font-size: .426667rem;
+    color: #868686;
+  }
+  
+  #Balance .xuanzhe{
+    width:9.5rem;
+    height: 1.333333rem;
+    padding: .133333rem .266667rem !important;
+    line-height: 1.333333rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  #Balance .payment div i {
+    display: inline-block;
+    color: #333333;
+  }
+  #Balance .jieshi{
+    display: inline-block;
+    line-height: 1.333333rem;
+    margin-left: .266667rem !important;
+  }
+  #Balance .jieshi span {
+    font-size: .373333rem;
+    display: block;
+    line-height: 2;
+    color: #333333;
+  }
+  #Balance .jieshi p {
+    font-size: .32rem;
+    color: #868686;
+    line-height: 2;
+  }
+  #Balance .payment input {
+    width: .533333rem;
+    height: .533333rem;
+    float: right;
+    margin-top: .4rem !important;
+  }
+  #Balance .icon-INCOME-PAY_WECHAT {
+    font-size: .7rem !important;
+    color: #4BD863 !important;
+  }
+  #Balance .icon-alipay {
+    font-size: .7rem !important;
+    color: #066cf0 !important;
+  }
+  #Balance .icon-weibiaoti- {
+    font-size: .75rem !important;
+    color: #f01606 !important;
+  }
+  #Balance .contentInvest {
+    width: 100%;
+    background: #fff;
+    padding-top: .533333rem !important;
+    min-height: 2.666667rem !important;
+  }
+  #Balance .contentInvest a{
+    width: 5.333333rem;
+    height: 1.066667rem;
+    display:block;
+    background: #868686;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.066667rem;
+    border: none;
+    border-radius: .133333rem;
+    color: #fff;
+  }
+  

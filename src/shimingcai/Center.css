@@ -1,0 +1,137 @@
+body a:hover {
+    text-decoration: none;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+#c-header{
+    display: block;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+#c-header{
+    width: 10rem;
+    background: #868686;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+.headContent{
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+.headContent span{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: .373333rem;
+    left: 0;
+}
+.headContent a:nth-child(1){
+    position: absolute;
+    left: 0;
+    height: 1.066667rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    z-index: 3;
+}
+.headContent a:nth-child(3){
+    position: absolute;
+    right: 0;
+    height: 1.066667rem;
+    color: #fff;
+    text-decoration: none;
+    z-index: 3;
+} 
+.headContent i{
+    font-size: .32rem;
+}
+  a {
+    color: black;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  header a {
+    z-index: 16;
+  }
+  #c-section {
+    background-color: #f2f2f2;
+    left: 0;
+  }
+  section .type {
+    position: fixed;
+    left: 0;
+    top: 1.066667rem;
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  section .type .all {
+    color: #fd7607;
+  }
+  section .tou {
+    width: 10rem;
+    height: 1px;
+    margin-top: 180px !important;
+    background-color: #f2f2f2;
+  }
+  section .dingdan {
+    width: 9.413333rem;
+    height: 3.2rem;
+    margin: 0 auto !important;
+    margin-top: .266667rem !important;
+    border: 1px solid #eee;
+    background-color: white;
+  }
+  section .dingdan div {
+    width: 8.373333rem;
+    height: .8rem;
+    margin: 0 auto !important;
+    line-height: .8rem;
+  }
+  section .dingdan div .left {
+    float: left;
+  }
+  section .dingdan div .right {
+    float: right;
+  }
+  section .dingdan div .last {
+    float: right;
+  }
+  section .dingdan div .last_a {
+    float: left;
+  }
+  section .dingdan .second i {
+    color: #bfbfbf;
+  }
+  section .dingdan .third i {
+    color: #1afa29;
+  }
+  section .xinxi {
+    width: 10rem;
+    margin-top: .533333rem !important;
+    margin-bottom: 1.3rem !important;
+    text-align: center !important;
+  }
+  section .xinxi p {
+    color: #bfbfbf;
+  }
+  

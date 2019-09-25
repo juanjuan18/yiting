@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+body {
+  background: #F2F2F2;
+}
+header {
+  width: 10rem;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  background: #868686;
+}
+header .headContent {
+  width: 9.466667rem;
+  margin: 0 auto;
+}
+header .headContent a {
+  float: left;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+header .headContent .headContent a:nth-child(2) {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+}
+.icon-wenhao {
+  float: right !important;
+  font-size: .48rem !important;
+}
+.details {
+  width: 100%;
+  height: 4rem;
+  color: #fff;
+  background: #868686;
+}
+.details h1 {
+  font-size: .8rem;
+  padding-top: .266667rem;
+  margin-left: .266667rem;
+}
+.details h6 {
+  margin-left: .266667rem;
+}
+.details h4:nth-child(1) {
+  padding-top: .8rem;
+  margin-left: .266667rem;
+  font-size: .373333rem;
+}
+.details h4:nth-child(2) {
+  float: right;
+  margin-right: .533333rem;
+  font-size: .373333rem;
+}
+.details h4:nth-child(2) a {
+  color: #fff;
+}
+.money {
+  width: 100%;
+  height: 4.533333rem;
+}
+.money p {
+  margin: .266667rem 0 0 .266667rem;
+  font-size: .426667rem;
+  color: #868686;
+}
+.money button {
+  width: 2.933333rem;
+  height: .933333rem;
+  margin: .266667rem 0 0 .266667rem;
+  border: none;
+  border-radius: .133333rem;
+  background: #fff;
+}
+.money input {
+  width: 9.466667rem;
+  height: .933333rem;
+  margin: .266667rem 0 0 .266667rem;
+  font-size: .426667rem;
+  text-align: center;
+  border: none;
+  border-radius: .133333rem;
+  color: #868686;
+}
+button:hover {
+  background: #333333;
+  color: #fff;
+}
+.payment {
+  width: 100%;
+  height: 4.533333rem;
+}
+.payment p {
+  margin: .266667rem 0 0 .266667rem;
+  font-size: .426667rem;
+  color: #868686;
+}
+.payment div {
+  width: 100%;
+  height: 150px;
+  background: #fff;
+}
+.payment div i {
+  width: 9.466667rem;
+  height: 1.333333rem;
+  margin-left: .266667rem;
+  display: inline-block;
+  line-height: 1.333333rem;
+  border-bottom: 1px solid #eee;
+  color: #333333;
+}
+.payment div i input {
+  width: .533333rem;
+  height: .533333rem;
+  float: right;
+  margin-top: -1rem;
+}
+.payment div i span {
+  font-size: .373333rem;
+  display: block;
+  margin-top: -1.55rem;
+  margin-left: .8rem;
+  color: #333333;
+}
+.payment div i p {
+  font-size: .32rem;
+  margin-top: -0.9rem;
+  margin-left: .8rem;
+}
+.icon-INCOME-PAY_WECHAT {
+  font-size: .7rem !important;
+  color: #4BD863 !important;
+}
+.icon-alipay {
+  font-size: .7rem !important;
+  color: #066cf0 !important;
+}
+.icon-weibiaoti- {
+  font-size: .75rem !important;
+  color: #f01606 !important;
+}
+.contentInvest {
+  width: 100%;
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  background: #fff;
+}
+.contentInvest button {
+  width: 5.333333rem;
+  height: 1.066667rem;
+  background: #333333;
+  text-align: center;
+  border: none;
+  border-radius: .133333rem;
+  margin-left: 2.333333rem;
+  color: #fff;
+}
+footer {
+  width: 100%;
+  height: 1.333333rem;
+  background: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+footer ul {
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.6rem;
+  width: 9.466667rem;
+}
+footer ul li {
+  float: left;
+  height: 1.333333rem;
+  width: 2.3664rem;
+  text-align: center;
+  font-size: .373333rem;
+}
+footer ul li .iconfont {
+  font-size: .426667rem;
+  color: #928f8f;
+  margin-top: .213333rem;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #928f8f;
+}
+footer ul li:hover a {
+  color: #252525;
+}
+footer ul li:hover .iconfont {
+  color: #252525;
+}
+footer ul li a {
+  height: 1.333333rem;
+  width: 2.5rem;
+  float: left;
+  text-decoration: none;
+  color: #928f8f;
+}
+footer ul li:nth-child(3) .iconfont{
+  color: rgb(37, 37, 37);
+  font-weight: 600;
+}
+footer ul li:nth-child(3) a span{
+  color: rgb(0, 0, 0);
+}

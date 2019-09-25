@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+body {
+  background: #F2F2F2;
+}
+header {
+  width: 10rem;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  background: #868686;
+}
+header .headContent {
+  width: 9.466667rem;
+  margin: 0 auto;
+}
+header .headContent a {
+  float: left;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.headContent a:nth-child(2) {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+}
+.headContent a:hover {
+  text-decoration: none;
+}
+.near {
+  width: 100%;
+  height: 13.866667rem;
+  background: #fff;
+}
+.near p {
+  height: .8rem;
+  display: block;
+  line-height: .8rem;
+  margin-left: .266667rem;
+  color: #666666;
+}
+.near .space {
+  width: 100%;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+.near .space ul {
+  height: 1.066667rem;
+}
+.near .space ul li {
+  width: 3.066667rem;
+  float: left;
+}
+.near .space ul li:nth-of-type(1) {
+  margin-left: .266667rem;
+  color: #666666;
+}
+.near .space ul li:nth-of-type(2) {
+  text-align: center;
+}
+.near .space ul li:nth-of-type(3) {
+  text-align: right;
+  color: #666666;
+}
+.room {
+  width: 100%;
+  height: 3.2rem;
+  padding-top: .8rem;
+  border-bottom: 1px solid #eee;
+}
+.room div {
+  width: 1.066667rem;
+  height: 1.066667rem;
+  float: right;
+  text-align: center;
+  z-index: 10;
+  margin-top: -0.8rem;
+  margin-right: .266667rem;
+  border-radius: 1.333333rem;
+  color: #fff;
+  background: #00cc00;
+}
+.room div a {
+  display: block;
+  margin-top: -0.133333rem;
+  font-size: .32rem;
+  margin-left: .08rem;
+  margin-right: .08rem;
+  color: #FFF;
+}
+.room h1 {
+  margin-left: .266667rem;
+  font-size: .48rem;
+}
+.room span:nth-of-type(1) {
+  color: black;
+}
+.room span:nth-of-type(2) {
+  color: #00cc00;
+}
+.room button {
+  border-radius: .08rem;
+  margin-left: .266667rem;
+  margin-top: .266667rem;
+  border: 1px solid #00cc00;
+  color: #00cc00;
+  background: #fff;
+}
+.room button:nth-of-type(1) {
+  width: 2.133333rem;
+  height: .533333rem;
+}
+.room button:nth-of-type(2) {
+  width: 1.6rem;
+  height: .533333rem;
+}
+.icon-daohang3 {
+  font-size: .48rem !important;
+}
+.loading {
+  width: 100%;
+  height: 1.52rem;
+  text-align: center;
+  background: #FFF;
+  border-top: 1px solid #eee;
+}
+.loading p {
+  font-size: .373333rem;
+  color: #666666;
+}
+footer {
+  width: 100%;
+  height: 1.333333rem;
+  background: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+footer ul {
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.6rem;
+  width: 9.466667rem;
+}
+footer ul .iconfont {
+  font-size: .426667rem;
+  color: #928f8f;
+  margin-top: .213333rem;
+}
+footer ul li {
+  float: left;
+  height: 1.333333rem;
+  width: 2.3664rem;
+  text-align: center;
+  font-size: .373333rem;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #928f8f;
+}
+footer ul li:hover a {
+  color: #252525;
+  text-decoration: none;
+}
+footer ul li:hover .iconfont {
+  color: #252525;
+}
+footer ul li a {
+  height: 1.333333rem;
+  width: 2.5rem;
+  float: left;
+  text-decoration: none;
+  color: #928f8f;
+}

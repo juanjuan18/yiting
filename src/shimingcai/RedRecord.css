@@ -1,0 +1,123 @@
+body a:hover {
+    text-decoration: none;
+  }
+  a {
+    color: black;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  header a {
+    z-index: 15;
+  }
+  section {
+    width: 10rem;
+    background-color: #f2f2f2;
+    left: 0;
+    min-height: 18rem !important;
+  }
+  section .quan1 {
+    padding-top: 1.066667rem !important;
+    width: 10rem;
+    height: 3.2rem;
+    margin-bottom: .053333rem !important;
+    background-color: white !important;
+  }
+  section .quan1 .mess {
+    width: 9.466667rem;
+    height: 2.666667rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: .266667rem !important;
+  }
+  section .quan1 .mess .tu {
+    width: 4rem;
+    height: 2.666667rem;
+    float: left;
+    border: 1px solid #eee !important;
+  }
+  section .quan1 .mess .tu img {
+    width: 4rem;
+    height: 2.666667rem;
+  }
+  section .quan1 .mess .zi {
+    width: 4rem;
+    height: 2.666667rem;
+    float: left;
+  }
+  section .quan1 .mess .zi .one {
+    margin-top: .533333rem !important;
+    text-indent: .133333rem;
+  }
+  section .quan1 .mess .zi .two {
+    color: #d1c9c9 !important;
+    margin-top: .533333rem !important;
+    text-indent: .133333rem;
+  }
+  section .quan1 .mess .xinxi {
+    width: 1rem;
+    height: 1.066667rem;
+    margin-top: .8rem !important;
+    float: right;
+  }
+  section .quan1 .mess .xinxi img {
+    width: 1.066667rem;
+    height: 1.066667rem;
+  }
+  section .quan {
+    width: 10rem;
+    height: 3.2rem;
+    margin-bottom: .053333rem !important;
+    background-color: white !important;
+  }
+  section .quan .mess {
+    width: 9.466667rem;
+    height: 2.666667rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: .266667rem !important;
+  }
+  section .quan .mess .tu {
+    width: 4rem;
+    height: 2.666667rem;
+    float: left;
+    border: 1px solid #eee !important;
+  }
+  section .quan .mess .tu img {
+    width: 4rem;
+    height: 2.666667rem;
+  }
+  section .quan .mess .zi {
+    width: 4rem;
+    height: 2.666667rem;
+    float: left;
+  }
+  section .quan .mess .zi .one {
+    margin-top: .533333rem !important;
+    text-indent: .133333rem;
+  }
+  section .quan .mess .zi .two {
+    color: #d1c9c9 !important;
+    margin-top: .533333rem !important;
+    text-indent: .133333rem;
+  }
+  section .quan .mess .xinxi {
+    width: 1rem;
+    height: 1.066667rem;
+    margin-top: .8rem !important;
+    float: right;
+  }
+  section .quan .mess .xinxi img {
+    width: 1.066667rem;
+    height: 1.066667rem;
+  }
+  /* .quan img {
+    background-color: transparent !important;
+} */
+/* footer{
+    display: none !important;
+} */
+  

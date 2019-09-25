@@ -1,0 +1,27 @@
+.xiaoxi1{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.xiaoxi1 img{
+    width: 355px;
+    height: 200px;
+    background-size: 100% 100%;
+}
+.xiaoxi1 h4{
+    margin: 0 auto;
+    width: 9.466667rem;
+    text-align: left;
+    font-size: .426667rem;
+    color: #333;
+}
+.xiaoxi1 p{
+    margin: 0 auto;
+    width: 355px;
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

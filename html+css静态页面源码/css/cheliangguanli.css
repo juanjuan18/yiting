@@ -1,0 +1,64 @@
+.login img{
+    height: 5.226667rem;
+    width: 10rem;
+    text-align: center;
+    background-size: 100% 100%;
+}
+.main p{
+    margin-top: 30px;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+}
+.chepaihao{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.chepaihao select{
+    width: 42px;
+    height: 46px;
+    font-size: 16px;
+}
+.chepaihao input{
+    margin-left: 5px;
+    width: 40px;
+    height: 42px;
+    border: none;
+    border: 1px solid rgb(169, 169, 169);
+    font-size: 20px;
+    text-align: center;
+}
+.lei{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.lei input{
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.lei label{
+    margin-left: 5px;
+    color: #666;
+}
+.main a{
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 1.066667rem;
+    width: 8rem;
+    border-radius: .8rem;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height:  1.066667rem;
+    background: #1296DB;
+    opacity: 0.7;
+}
+footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+}

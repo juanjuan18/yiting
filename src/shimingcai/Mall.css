@@ -1,0 +1,155 @@
+body a:hover {
+    text-decoration: none;
+  }
+  a {
+    color: black;
+  }
+  .clearfix::after{
+    contain: "";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  header {
+      display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%
+  }
+  header a {
+    z-index: 15;
+  }
+  .iconfont{
+    font-size: 30px;
+  }
+  section {
+    width: 100%;
+    min-height: 17.52rem;
+    background-color: #f2f2f2;
+    left: 0;
+  }
+  section .jifen {
+    padding-top: 1.066667rem !important;
+    width: 10rem;
+    height: 1.3rem;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+  }
+  section .jifen .left {
+    float: left;
+    margin-left: .266667rem !important;
+    line-height: 1.333333rem;
+    font-size: .433333rem;
+  }
+  section .jifen .left i {
+    color: yellow;
+  }
+  section .jifen .right {
+    float: right;
+    margin-right: .266667rem !important;
+    line-height: 1.333333rem;
+    font-size: .433333rem;
+  }
+  section .jifen .right i {
+    color: yellow;
+  }
+  section .tupian {
+    width: 10rem;
+    height: 4rem;
+  }
+  section .tupian img {
+    width: 10rem;
+    height: 4rem;
+  }
+  section .huodong {
+    width: 10rem;
+    height: 2.666667rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  section .huodong div {
+    width: 2.4rem;
+    height: 2.666667rem;
+    text-align: center;
+  }
+  section .huodong div img {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: .4rem !important;
+  }
+  section .huodong div p {
+    color: #868686;
+    font-size: .373333rem;
+  }
+  section .tong {
+    width: 10rem;
+    height: 5.866667rem;
+    background-color: white;
+  }
+  .quan_con {
+    width: 9.466667rem;
+    /* height: 5.866667rem; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .quan_con h5 {
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+  }
+  .quan_con .quan_left {
+    /* background: #5dbbd8; */
+    float: left;
+  }
+  /* .quan_con div {
+    width: 4.533333rem;
+  } */
+  .tong img{
+    width: 4.533333rem;
+  }
+  .quan img{ 
+    background-color: #5dbbd8 !important;
+  }
+  .quan_con p {
+    margin-top: .133333rem;
+  }
+  .tong .red{ 
+    color: red;
+  }
+  .tong a {
+    display: block;
+    float: right;
+    width: 1.333333rem;
+    height: .666667rem;
+    line-height: .666667rem;
+    background-color: #c1cac8;
+    text-align: center;
+    border-radius: .266667rem;
+    margin-bottom: .133333rem;
+  }
+  .quan_con .quan_right {
+    /* background: #5dbbd8; */
+    float: right;
+  }
+  /* section .shangping {
+    width: 10rem;
+    height: 5.866667rem;
+    background-color: white;
+  } */
+  section .dibu {
+    width: 10rem;
+    margin: .32rem !important;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin-bottom: 1.3rem !important;
+    text-align: center;
+  }
+  header{
+    width: 100% !important;
+  }

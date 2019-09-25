@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none !important;
+}
+header{
+    width: 10rem;
+    background: #868686;
+    position: fixed;
+}
+.headContent{
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+.headContent span{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: .373333rem;
+    left: 0;
+}
+.headContent a:nth-child(1){
+    position: absolute;
+    left: 0;
+    height: 1.066667rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    z-index: 2;
+}
+.headContent a:nth-child(3){
+    position: absolute;
+    right: 0;
+    height: 1.066667rem;
+    color: #fff;
+    text-decoration: none;
+    z-index: 2;
+} 
+.headContent i{
+    font-size: .32rem;
+}
+
+section{
+    /* padding-top: 2.666667rem    ; */
+    height: 17.786667rem;
+    background: white;
+    /* position: absolute;
+    top: 2.133333rem;
+    left: 0; */
+}
+section .big_content{
+    width: 100%;
+    padding-top: 1.066667rem;
+    height: 16.72rem;
+    background: white;
+}
+section .top_content{
+    width: 100%;
+    height: 7.68rem;
+    position: relative;
+    border-bottom:1px solid #979696;
+    background: #333333;
+}
+.left_ear{
+    width: .533333rem;
+    height: 3.2rem;
+    border-radius: 0 .4rem .4rem 0;
+    background: #666666;
+    position: absolute;
+    top: 2.133333rem;
+    left: 0;
+}
+.right_ear{
+    width: .533333rem;
+    height: 3.2rem;
+    border-radius:  .4rem 0 0 .4rem ;
+    background: #666666;
+    position: absolute;
+    top: 2.133333rem;
+    right: 0;
+}
+.card{
+    width: 7.133333rem;
+    height: 4.333333rem;
+    border-radius: .266667rem;
+    position: absolute;
+    left: calc(50% - 3.573333rem);
+    top: 1.6rem;
+}
+.card img{
+    width: 7.133333rem;
+    height: 4.333333rem;
+}
+.diandian{
+    width: 1.466667rem;
+    height: .373333rem;
+    background: #666666;
+    position: absolute;
+    border-radius: .266667rem;
+    left: calc(50% - .733333rem);
+    bottom: 1rem;
+    text-align: center;
+}
+.diandian span{
+    width: .133333rem;
+    height: .133333rem;
+    line-height: .133333rem;
+    background: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: .08rem;
+}
+.diandian .two{
+    width: .213333rem;
+    height: .233333rem;
+    line-height: .233333rem;
+    background: white;
+    display: inline-block;
+    border-radius: 50%;
+}
+.top_content h1{
+    width: 100%;
+    text-align: center;
+    font-size: .373333rem;
+    color: #666666;
+    position: absolute;
+    left: 0;
+    bottom: .4rem;
+}
+.big_content p{
+    width: 7.866667rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    padding-left: 1.333333rem;
+    padding-right: .8rem;
+    background:white;
+    display: block;
+    border-bottom: 1.5px solid #dedede;   
+}
+.big_content p span{
+    font-size: .373333rem;
+    color: #666666;
+}
+.big_content p .xingming{
+    font-size: .373333rem;
+    color: rgb(7, 7, 7);
+    float: right;
+}
+.big_content a{
+    width: 3.466667rem;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .373333rem;
+    color: white;
+    background: #169BD5;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.066667rem;
+}
+/*底部*/
+footer{
+    width: 100%;
+    height: 1.333333rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #dedede;
+}
+footer ul{
+    width: 100%;
+    height: 1.6rem;
+}
+footer ul li .iconfont{
+    font-size: .426667rem;
+    color:#928f8f;
+    margin-top: .213333rem;
+}
+footer ul li{
+    float: left;
+    height: 1.333333rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: .373333rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #928f8f;
+}
+footer ul li:hover a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+footer ul li:hover .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li a{
+    height: 1.333333rem;
+    width: 2.5rem;
+    float: left;
+    text-decoration: none;
+    color: #928f8f;
+}

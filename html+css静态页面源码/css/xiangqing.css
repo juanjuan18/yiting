@@ -1,0 +1,121 @@
+body a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+header a {
+  z-index: 16;
+}
+section {
+  width: 10rem;
+  height: 21.333333rem;
+  background-color: #f2f2f2;
+  left: 0;
+}
+section .tou {
+  padding-top: 1.066667rem;
+}
+section .dingdan {
+  width: 9.413333rem;
+  height: 2.133333rem;
+  margin: 0 auto;
+  margin-top: .266667rem;
+  border: 1px solid #eee;
+  background-color: white;
+}
+section .dingdan div {
+  width: 8.533333rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .dingdan .biaoti {
+  font-size: 18px;
+  color: #797979;
+}
+section .dingdan .message {
+  font-size: .32rem;
+  color: #797979;
+  border-top: 1px solid #eee;
+}
+section .park {
+  width: 9.413333rem;
+  height: 3.2rem;
+  margin: 0 auto;
+  margin-top: .266667rem;
+  border: 1px solid #eee;
+  background-color: white;
+}
+section .park div {
+  width: 8.533333rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .park .biaoti {
+  font-size: 18px;
+  color: #797979;
+}
+section .park .message {
+  font-size: .32rem;
+  color: #797979;
+  border-top: 1px solid #eee;
+}
+section .car {
+  width: 9.413333rem;
+  height: 7.466667rem;
+  margin: 0 auto;
+  margin-top: .266667rem;
+  border: 1px solid #eee;
+  background-color: white;
+}
+section .car div {
+  width: 8.533333rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .car .biaoti {
+  font-size: 18px;
+  color: #797979;
+}
+section .car .message {
+  font-size: .32rem;
+  color: #797979;
+  border-top: 1px solid #eee;
+}
+section .xinxi {
+  width: 9.413333rem;
+  height: 5.333333rem;
+  margin: 0 auto;
+  margin-top: .266667rem;
+  margin-bottom: 1.8rem;
+  border: 1px solid #eee;
+  background-color: white;
+}
+section .xinxi div {
+  width: 8.533333rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .xinxi .biaoti {
+  font-size: 18px;
+  color: #797979;
+}
+section .xinxi .message {
+  font-size: .32rem;
+  color: #797979;
+  border-top: 1px solid #eee;
+}

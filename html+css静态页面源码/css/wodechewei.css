@@ -1,0 +1,51 @@
+html{
+    background: #F2F2F2 !important;
+}
+.headContent a i{
+    font-style: normal;
+}
+.headContent .a3{
+    display: none;
+}
+
+
+
+.search{
+    width: 10rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+
+}
+.list{
+    width: 9.466667rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    line-height: 1.12rem;
+    border-bottom: 1px solid #eee;
+}
+.list:last-child{
+    border-bottom: none;
+}
+.list span{
+    color: #666;
+    font-size: .373333rem; 
+    transform: translateX(-1.066667rem);
+}
+.sure{
+    position: fixed;
+    bottom: 2.4rem;
+    left: calc(50% - 4.453333rem);
+    margin: 0 auto;
+    margin-top: 1.066667rem;
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border-radius: .8rem;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height:  1.066667rem;
+    background: #1296DB;
+    opacity: 0.7;
+    text-decoration: none;
+}
+

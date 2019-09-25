@@ -1,0 +1,102 @@
+body a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+header a {
+  z-index: 9;
+}
+section {
+  min-height: 16.453333rem;
+  background-color: #f2f2f2;
+  left: 0;
+}
+section .shouchang {
+  padding-top: 1.066667rem;
+  width: 10rem;
+  height: 1.333333rem;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+section .shouchang .left {
+  width: 8rem;
+  height: 1.333333rem;
+  float: left;
+  line-height: 1.333333rem;
+}
+section .shouchang .left .tingche {
+  float: left;
+  margin-left: .266667rem;
+}
+section .shouchang .left .tingche a {
+  font-size: .426667rem;
+}
+section .shouchang .left .chewei {
+  float: left;
+  margin-left: 1.866667rem;
+}
+section .shouchang .left .chewei a {
+  font-size: .426667rem;
+}
+section .shouchang .right {
+  width: 1.973333rem;
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  float: right ;
+  text-align: center;
+  border-left: 1px solid #eee;
+}
+section .shouchang .right a {
+  font-size: .426667rem;
+}
+section .juti {
+  width: 10rem;
+  height: 3.3rem;
+  position: relative;
+  margin-top: 1px;
+  background-color: white;
+}
+section .juti img {
+  position: absolute;
+  left: 1.266667rem;
+  top: .266667rem;
+  width: 4.266667rem;
+  height: 2.666667rem;
+}
+section .juti .mes {
+  width: 3rem;
+  position: absolute;
+  top: .266667rem;
+  left: 5.8rem;
+}
+section .juti .mes p {
+  margin-left: .266667rem;
+  font-size: .373333rem;
+  margin-top: .266667rem;
+  color: #797979;
+}
+section .juti input {
+  display: block;
+  position: absolute;
+  left: .266667rem;
+  top: 1.2rem;
+  width: .6rem;
+  height: .6rem;
+}
+footer {
+  line-height: 1.333333rem;
+}
+footer div input {
+  margin-left: .266667rem;
+}
+footer div a {
+  float: right;
+  margin-right: .266667rem;
+}

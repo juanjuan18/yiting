@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+.head{
+    background: #868686;
+    line-height: 1.066667rem;
+}
+.head a{
+    width: 9.466667rem;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+}
+.head i{
+    font-size: .32rem;
+}
+
+section h3{
+    margin: 0 auto;
+    width: 9.466667rem;
+    margin-top: .533333rem;
+    font-size: .586667rem;
+    font-weight: 500;
+    color: #333;
+}
+.yiting{
+    margin: 0 auto;
+    margin-top: .133333rem;
+    width: 9.466667rem;
+    font-size: .4rem;
+    color: #21A5FA;
+}
+section h4{
+    margin: 0 auto;
+    width: 9.466667rem;
+    margin-top: .533333rem;
+    font-size: .48rem;
+    color: #333;
+}
+.yiting span{
+    margin: 0 auto;
+    width: 9.466667rem;
+    font-size: .32rem;
+    color: #999;
+}
+.gaishu h5{
+    margin: 0 auto;
+    width: 9.466667rem;
+    margin-top: .8rem;
+    font-size: .426667rem;
+    color: #21A5FA;
+    border-bottom: 2px solid #21A5FA;
+}
+.gaishu p{
+    width: 9.466667rem;
+    margin: 0 auto;
+    margin-top: .533333rem;
+    color: #888;
+    font-size: .373333rem;
+    text-indent: 2em;
+    line-height: 2em;
+}
+.tu{
+    width: 9.466667rem;
+    margin: 0 auto;
+    margin-top: .533333rem;
+}
+.tu img{
+    width: 9.466667rem;
+    height: 5.333333rem;
+    background-size: 100% 100%;
+}
+.tedian ul{
+    width: 9.466667rem;
+    margin: 0 auto;
+    margin-top: .533333rem;
+    color: #888;
+    font-size: .373333rem;
+    line-height: 2em;
+}
+.shili{
+    margin-bottom: 1.066667rem;
+}

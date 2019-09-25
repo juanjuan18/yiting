@@ -1,0 +1,66 @@
+#EzStop body a:hover {
+  text-decoration: none;
+}
+#EzStop a {
+color: white;
+}
+#EzStop header a {
+z-index: 16;
+}
+#EzStop header{
+top: 0;
+}
+#EzStop .iconfont{
+  font-size: .466667rem;
+
+}
+#EzStop body {
+  height: 16.453333rem;
+  background-color: #f2f2f2;
+}
+#EzStop section {
+  width: 10rem;
+}
+#EzStop .zhanweia{
+  padding-top: 0.3966667rem !important;
+}
+#EzStop section .start {
+  width: 9.466667rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .4rem;
+  padding-top: .133333rem;
+  height: 4rem;
+  background: #fff;
+  border: 1px solid #eee;
+}
+#EzStop section .start p {
+  font-size: .48rem;
+  margin-top: .133333rem;
+  margin-left: .133333rem;
+  color: #666666;
+}
+#EzStop section .start .finish {
+  /* float: right; */
+  text-align: right; /* 新加 */
+  margin-top: 0;    /* 新加 */
+  margin-right: .133333rem;
+}
+#EzStop section .start .icon-shijian {
+  color: #666666;
+}
+#EzStop section .start .icon-dian2 {
+  color: #00cc00 !important;
+}
+#EzStop section .start .icon-dian3 {
+  color: red;
+}
+#EzStop section .start .icon-coin {
+  color: yellow;
+}
+#EzStop footer ul li:nth-child(4) .iconfont{
+  color: rgb(37, 37, 37);
+}
+#EzStop footer ul li:nth-child(4) a span{
+  color: rgb(0, 0, 0);
+}

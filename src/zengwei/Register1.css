@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0
+}
+html, body, #app, #home {
+  height: 100%;
+  width: 100%;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+ body a:hover{
+    text-decoration: none;
+}
+#register3{
+    min-height: 17.786667rem;
+    min-width: 10rem;
+    background: url(../images/44.jpg)center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    position:fixed;
+    z-index: 200;
+}
+#register3 .app{
+    min-height: 17.786667rem;
+    background: rgba(255,255,255,0.4);
+    /* display: flex; */
+}
+
+
+#register3 .lefta{
+    position: absolute;
+    top: .266667rem;
+    left: .266667rem;
+    height: .533333rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    background: transparent;
+    z-index: 3;
+} 
+#register3 .lefta i{
+    font-size: .426667rem;
+}
+#register3 .righta{
+    position: absolute;
+    top: .266667rem;
+    right: .266667rem;
+    height: .533333rem;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    z-index: 3;
+}
+#register3 .verification{
+    min-height: 10.666667rem;
+    padding-top: .4rem;
+}
+#register3 .verification h2{
+    margin-left: .533333rem;
+    margin-top: .8rem;
+    color: #fff;
+    font-size: .586667rem;
+}
+#register3 .verification p{
+    margin-top: .266667rem;
+    margin-left: .533333rem;
+    color: #fff;
+    font-size: .373333rem;
+}
+#register3 .search3{
+    margin-top: 1.6rem;
+    position: relative;
+    text-align: center;
+}
+#register3 .verification input{
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border: none;
+    /* border-bottom: 1px solid #D7D7D7; */
+    text-indent: 1em;
+    color: #BCBCBC;
+    font-size: .373333rem;
+    background: rgba(255,255,255,0.7);
+}
+#register3 .search3 a{
+    color: #666;
+    font-size: .373333rem;
+    position: absolute;
+    top: .266667rem;
+    right: .8rem;
+}
+#register3 .a2{
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border-radius: .8rem;
+    display: block;
+    color: #999;
+    text-align: center;
+    line-height: 1.066667rem;
+    font-size: .373333rem;
+    background: rgba(255,255,255,0.7);
+}
+#register3 .mima{
+    position: relative;
+    text-align: center;
+    margin-top: 0.5rem; 
+    
+}
+
+.am-toast-mask{
+    background-color:rgb(105, 97, 97);
+    border-radius: .3rem;
+    border:1px solid white;
+    position:fixed;
+    left:3rem;
+    top:5rem;
+    z-index:500;
+    text-align: center;
+}
+.am-toast-text-info{
+    text-align: center;
+    color:#999
+}

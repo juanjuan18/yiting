@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>YiTing</title>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ou3xIgU9GX9VllK2UoixbxLXqTSe2NQk"></script>
+  <!-- <style>
+    .tangram-suggestion table{
+      width: 10rem;
+      font-size: .426667rem;
+      position: absolute;
+      top: 1.6rem;
+    }
+    .tangram-suggestion table td{
+      width: 10rem;
+      font-size: .426667rem;
+      
+    }
+  </style> -->
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+ 
+  <!-- <div id="l-map"></div> -->
+	<!-- <div id="r-result">请输入:<input type="text" id="suggestId" size="20" value="百度" style="width:150px;" /></div>
+	<div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div> -->
+</body>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+  // var map = new BMap.Map("allmap");
+  // var point = new BMap.Point(116.331398, 39.897445);
+  // map.centerAndZoom(point, 20);
+  // let lng, lat, start, end
+  // var geolocation = new BMap.Geolocation();
+  // geolocation.getCurrentPosition(function (r) {
+  //   if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+  //     var mk = new BMap.Marker(r.point);
+  //     map.addOverlay(mk);
+  //     map.panTo(r.point);
+  //     lng = r.point.lng;
+  //     lat = r.point.lat
+  //     var pt1=r.point
+  //     // console.log(r.point)
+  //     var geoc = new BMap.Geocoder();
+  //     geoc.getLocation(pt1, function(rs){
+  //         var addComp = rs.addressComponents;
+  //         start=addComp.province  + addComp.city + addComp.district  + addComp.street
+  //         // alert(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+  //     });
+  //     // alert('您的位置：'+r.point.lng+','+r.point.lat);
+  //   }
+  //   else {
+  //     alert('failed' + this.getStatus());
+  //   }
+  // }, { enableHighAccuracy: true })
+  // map.enableScrollWheelZoom(true);   //启用滚轮放大缩小，默认禁用
+  // map.enableContinuousZoom(true);    //启用地图惯性拖拽，默认禁用
+  // // 百度地图API功能
+  // // var map = new BMap.Map("allmap");
+  // // map.centerAndZoom(new BMap.Point(116.331398,39.897445),11);
+
+  // // 用经纬度设置地图中心点
+  // function theLocation() {
+  //   if (lng != "" && lat != "") {
+  //     map.clearOverlays();
+  //     var new_point = new BMap.Point(lng, lat);
+  //     var marker = new BMap.Marker(new_point);  // 创建标注
+  //     map.addOverlay(marker);              // 将标注添加到地图中
+  //     map.panTo(new_point);
+  //   }
+  // }
+  // var geoc = new BMap.Geocoder();
+
+  // map.addEventListener("click", function (e) {
+  //   var pt = e.point;
+  //   // console.log(pt)
+  //   geoc.getLocation(pt, function (rs) {
+  //     var addComp = rs.addressComponents;
+  //     end = addComp.city + addComp.district + addComp.street
+
+  //     //百度地图API功能
+  //     var output ="从"+ start+"   到   "+end;
+  //     var searchComplete = function (results) {
+  //       // console.log(results)
+  //       if (transit.getStatus() != BMAP_STATUS_SUCCESS) {
+  //         return;
+  //       }
+  //       var plan = results.getPlan(0);
+  //       output += plan.getDuration(true) + "\n";                //获取时间
+  //       output += "总路程为：";
+  //       output += plan.getDistance(true) + "\n";             //获取距离
+  //     }
+  //     var transit = new BMap.DrivingRoute(map, {
+  //       renderOptions: { map: map },
+  //       onSearchComplete: searchComplete,
+  //       onPolylinesSet: function () {
+  //         setTimeout(function () { alert(output) }, "1000");
+  //       }
+  //     });
+  //     transit.search(start, end);
+  //     // alert(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+  //   });
+  // });
+
+  // //驾车线路
+  // var routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
+	// $("#result").click(function(){
+	// 	map.clearOverlays(); 
+	// 	var i=$("#driving_way select").val();
+	// 	search(start,end,routePolicy[i]); 
+	// 	function search(start,end,route){ 
+	// 		var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true},policy: route});
+	// 		driving.search(start,end);
+	// 	}
+	// });
+
+  // //百度地图API功能
+  //   function G(id) {
+  //     return document.getElementById(id);
+  //   }
+
+  //   var map = new BMap.Map("l-map");
+  //   map.centerAndZoom("北京",12);                   // 初始化地图,设置城市和地图级别。
+
+  //   var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+  //     {"input" : "suggestId"
+  //     ,"location" : map
+  //   });
+
+  //   ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+  //   var str = "";
+  //     var _value = e.fromitem.value;
+  //     var value = "";
+  //     if (e.fromitem.index > -1) {
+  //       value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+  //     }    
+  //     str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+      
+  //     value = "";
+  //     if (e.toitem.index > -1) {
+  //       _value = e.toitem.value;
+  //       value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+  //     }    
+  //     str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+  //     G("searchResultPanel").innerHTML = str;
+  //   });
+
+  //   var myValue;
+  //   ac.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+  //   var _value = e.item.value;
+  //     myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+  //     G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+      
+  //     setPlace();
+  //   });
+
+  //   function setPlace(){
+  //     map.clearOverlays();    //清除地图上所有覆盖物
+  //     function myFun(){
+  //       var pp = local.getResults().getPoi(0).point;    //获取第一个智能搜索的结果
+  //       console.log(pp)
+  //       map.centerAndZoom(pp, 18);
+  //       map.addOverlay(new BMap.Marker(pp));    //添加标注
+  //     }
+  //     var local = new BMap.LocalSearch(map, { //智能搜索
+  //       onSearchComplete: myFun
+  //     });
+  //     local.search(myValue);
+  //   }
+</script>
+
+</html>

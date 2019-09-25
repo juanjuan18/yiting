@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+header{
+    width: 10rem;
+    background: #868686;
+}
+.headContent{
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+.headContent span{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: .373333rem;
+    left: 0;
+}
+.headContent a:nth-child(1){
+    position: absolute;
+    left: 0;
+    height: 1.066667rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    z-index: 3;
+}
+.headContent a:nth-child(3){
+    position: absolute;
+    right: 0;
+    height: 1.066667rem;
+    color: #fff;
+    text-decoration: none;
+    z-index: 3;
+} 
+.headContent i{
+    font-size: .32rem;
+}
+.bodycontainer{
+    width: 100%;
+}
+.addpicture{
+    width: 9.466667rem;
+    height:12.8rem;
+    margin: 0 auto;
+}
+.addpicture p{
+    font-size: .373333rem;
+    color: #666666;
+    margin-top: .266667rem;
+}
+.addpicture ul{
+    margin-top: 3.2rem;
+    
+}
+.addpicture ul li{
+    float: left;
+    width: 2.933333rem;
+    height: 2.933333rem;
+    margin-right: .222133rem;
+    margin-bottom: .533333rem;
+    position: relative;
+}
+.addpicture ul img{
+    width: 2.933333rem;
+    height: 2.933333rem;
+}
+.close{
+    height: .533333rem;
+    width: .533333rem;
+    background-color: rgb(236, 232, 232);
+
+}
+.addpicture ul li .iconfont{
+font-size: .533333rem;
+color: white;
+}
+.addpicture ul li .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.addpicture ul li:nth-child(4){
+    background-color: #eee;
+    text-align: center;
+}
+.addpicture ul li:nth-child(4) span{
+    font-size: 1.066667rem;
+    display: inline-block;
+    margin-top: .533333rem;
+}
+.add{
+    width: 2.266667rem;
+    height: .666667rem;
+    background-color: #eee;
+    border-radius: .4rem;
+    display: inline-block;
+    text-align: center;
+    line-height:  .666667rem;
+    vertical-align: middle;
+    margin: .266667rem .266667rem;
+}
+.add span{
+    font-size: .32rem;
+    color: #666666;
+    display: inline-block;
+   
+}
+.add span .iconfont{
+    font-size: .8rem;
+}
+footer{
+    width: 100%;
+    height: 1.333333rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.putup{
+    width: 1.786667rem;
+    height: .666667rem;
+    background-color: rgb(206, 197, 197);
+    border-radius: .133333rem;
+    display: inline-block;
+    text-align: center;
+    line-height:  .666667rem;
+    vertical-align: middle;
+    margin: .266667rem .8rem;
+}
+
+
+
+

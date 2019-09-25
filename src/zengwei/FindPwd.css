@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0
+}
+html, body, #app, #home {
+  height: 100%;
+  width: 100%;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+body a:hover{
+    text-decoration: none;
+}
+#findpwd{
+    min-height: 17.786667rem;
+    background: url(../images/44.jpg)center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    position:fixed;
+    z-index: 200;
+}
+#findpwd .app{
+    min-height: 17.786667rem;
+    background: rgba(255,255,255,0.4);
+    /* display: flex; */
+}
+
+#findpwd .headContent .lefta{
+    position: absolute;
+    left: .266667rem;
+    top: 10px;
+    height: .533333rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    background: transparent;
+    z-index: 3;
+}
+#findpwd .headContent .righta{
+    position: absolute;
+    right: .266667rem;
+    top: 10px;
+    height: .533333rem;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    z-index: 3;
+} 
+#findpwd .verification{
+    min-height: 10.666667rem;
+    padding-top: .4rem;
+}
+#findpwd .search4{
+    width: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+#findpwd .search4{
+    margin-top: 1.066667rem;
+}
+#findpwd .verification input{
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border: none;
+    text-indent: 2em;
+    color: #999;
+    font-size: .373333rem;
+    background: rgba(255,255,255,0.7);
+}
+#findpwd .verification .a2{
+    margin: 0 auto;
+    margin-top: 1.066667rem;
+    height: 1.066667rem;
+    width: 8.906667rem;
+    border-radius: .8rem;
+    display: block;
+    color: #999;
+    text-align: center;
+    line-height: 1.066667rem;
+    font-size: .373333rem;
+    background: rgba(255,255,255,0.7);
+}
+#findpwd .verification p{
+    margin-top: .133333rem;
+    margin-left: .533333rem;
+    color: #797979;
+    font-size: .32rem;
+}
+#findpwd .verification p a{ 
+    color: #0066FF;
+    margin-left: .133333rem;
+    text-decoration: underline;
+}

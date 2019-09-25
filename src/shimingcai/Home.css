@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.carousel{
+    position: relative;
+}
+.carousel-inner img{
+    width: 100% !important;
+    height: 9.066667rem !important;
+}
+.item{
+    width: 100%;
+    height: 9.066667rem;
+}
+.carousel-indicators{
+    bottom: -.64rem !important;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: .186667rem !important;
+    height: .186667rem !important;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: none !important;
+    background: rgb(163, 197, 220);
+    border-radius: 10px;
+}
+header{
+    display: none;
+}
+.zhanwei{
+    display: none;
+}
+.header{
+    height: 9.066667rem;
+}
+.carousel-indicators .active {
+    width: .32rem !important;
+    height: .32rem !important;
+    margin: 0;
+    background-color: rgb(73, 160, 251) !important;
+}
+.top_text{
+    height: 2.133333rem;
+    /* background: green; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: .533333rem;
+    padding-left: .533333rem;
+    padding-right: .533333rem;
+}
+.top_text h1{
+    font-size: .64rem;
+    color: white;
+}
+.top_text p{
+    font-size: .426667rem;
+    color: white;
+}
+.input_search{
+    width: 9.466667rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    background: rgba(255, 255, 255,0.6);
+    z-index: 15;
+    position: fixed;
+    left: .266667rem;
+    top: 2.666667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_search .icon-weibiaoti--{
+    font-size: .8rem;
+    font-weight: 500;
+    color: #dedede;
+    vertical-align: middle;
+    margin-top: .133333rem;
+    /* margin-left: .266667rem; */
+}
+.search{
+
+    display: flex;
+}
+.input_search input{
+    height: 1rem;
+    width: 7.2rem;
+    border: none;
+    background:  rgba(255, 255, 255,0);
+    outline: none;
+    padding-left: .266667rem;
+    font-size: .426667rem;
+    color: #929292;
+}
+.user_qiandao{
+    width: 100%;
+    height: 1.733333rem;
+    line-height: 1.733333rem;
+    background: rgba(255, 255, 255,0.6);
+    position: relative;
+    left: 0;
+    top: -1.733333rem;
+    /* display: flex; */
+    z-index: 16;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: .8rem 0 .8rem 0;
+}
+.user_qiandao .user{
+    display: inline-block;
+    height: 1.066667rem;
+    margin-left: .533333rem;
+    margin-right: .266667rem;
+}
+.user_qiandao img{
+    width: 1.066667rem;
+    height: 1.066667rem;
+    border-radius: 50%;
+    margin: 0;
+}
+.user_qiandao span{
+    font-size: .373333rem;
+    color: #5c5c5c;
+}
+.user_qiandao .bigCircle{
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    right: .346667rem;
+    top: -.88rem;
+    background: rgba(255, 255, 255,0.6);
+    border-radius: 50%;
+}
+.bigCircle{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    right: .933333rem;
+    top: -.8rem;
+}
+.bigCircle a{
+    width: 1.2rem;
+    height: 1.2rem;
+    /* padding-top: .133333rem; */
+    position: absolute;
+    left: calc(50% - .6rem);
+    top: calc(50% - .6rem);
+    text-align: center;
+    font-size: .32rem;
+    color: white;
+    background: rgba(22, 190, 16, 0.76);
+    border-radius: 50%;
+}
+.bigCircle a span{
+    width: .8rem;
+    /* height: .8rem; */
+    display: inline-block;
+    font-size: .32rem;
+    color: white;
+    line-height: .4rem;
+    position: absolute;
+    left: .2rem;
+    top: .2rem;
+}
+.section div,.section a,.section h,.section p,.section span,.section img{
+    margin: 0 ;
+    padding: 0 ;
+}
+.section{
+    /* min-height: 9.333333rem; */
+    width: 100%;
+    /* display: flex !important;
+    justify-content: center !important; */
+}
+.section .gongneng{
+    width: 8.933333rem !important;
+    margin-top: .8rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.gongneng_01{
+    width: 4rem !important;
+    height: 2.666667rem !important;
+    margin-bottom: .8rem !important;
+    position: relative;
+    text-align: center;
+    /* font-size: .426667rem !important;    */
+}
+.gongneng_01 #mengban{
+    width: 4rem !important;
+    height: 2.666667rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.gongneng_01 img{
+    width: 4rem !important;
+    height: 2.666667rem !important;
+}
+.gongneng_01 #wenzi{
+    color: white !important;
+    position: absolute !important;
+    left: 0.5rem !important;
+    top: .433333rem !important;
+    font-size: .48rem !important;
+    color: white !important;
+    font-weight: 500;
+    padding: .533333rem .533333rem !important;
+    border: none !important;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: .133333rem;
+}
+.gongneng_01 p{
+    color: white !important;
+    position: absolute !important;
+    left: 0.2rem !important;
+    top: 1.3rem !important;
+    padding:0 .266667rem !important;
+}
+.gongneng a:nth-child(3) p{
+    color: white !important;
+    position: absolute !important;
+    left: 0.7rem !important;
+    top: 1.4rem !important;
+}
+.gongneng a:nth-child(4) p{
+    color: white !important;
+    position: absolute !important;
+    left: 1rem !important;
+    top: 1.4rem !important;
+}
+
+
+/*底部*/
+footer{
+    width: 100%;
+    height: 1.333333rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #dedede;
+}
+footer ul{
+    height: 1.6rem;
+}
+footer ul li .iconfont{
+    font-size: .426667rem;
+    color:#928f8f;
+    margin-top: .213333rem;
+}
+footer ul li{
+    float: left;
+    height: 1.333333rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: .373333rem;
+}
+footer ul li a{
+    height: 1.333333rem;
+    width: 2.5rem;
+    float: left;
+    text-decoration: none;
+    color: #928f8f;
+}
+footer ul li:hover a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+footer ul li:hover .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li a{
+    height: 1.333333rem;
+    width: 2.5rem;
+    float: left;
+    text-decoration: none;
+    color: #928f8f;
+}
+/* footer ul li:nth-child(1) .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li:nth-child(1) a span{
+    color: rgb(0, 0, 0);
+} */

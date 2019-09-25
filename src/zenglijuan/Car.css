@@ -1,0 +1,73 @@
+#Car .login img{
+    height: 5.226667rem;
+    width: 10rem;
+    text-align: center;
+    background-size: 100% 100%;
+}
+#Car .main p{
+    margin-top: .8rem !important;
+    color: #666;
+    font-size: .426667rem !important;
+    text-align: center;
+}
+#Car .zhanwei{
+    padding-top: 0.376667rem;
+    display: block !important;
+}
+#Car .chepaihao{
+    margin: 0 auto !important;
+    margin-top: .533333rem !important;
+    text-align: center;
+}
+#Car .chepaihao select{
+    width: 1.12rem !important;
+    height: 1.226667rem !important;
+    font-size: .426667rem !important;
+}
+#Car .chepaihao input{
+    margin-left: 10px !important;
+    width: 1.066667rem;
+    height: 1.12rem;
+    border: none !important;
+    border: 1px solid rgb(169, 169, 169) !important;
+    font-size: .533333rem !important;
+    text-align: center;
+}
+#Car .lei{
+    margin: 0 auto !important;
+    margin-top: .533rem !important;
+    text-align: center;
+}
+#Car .lei input{
+    margin-left: .133333rem!important;
+    vertical-align: middle;
+    font-size: .373333rem !important;
+    /* width: .133333rem !important; */
+    /* height: .133333rem !important; */
+}
+#Car .lei label{
+    margin-left: .093333rem;
+    color: #666;
+}
+#Car .main{
+    min-height: 10.666667rem;
+}
+#Car .main a{
+    margin: 0 auto !important;
+    margin-top: .8rem !important;
+    height: 1.066667rem;
+    width: 8rem;
+    border-radius: .8rem;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height:  1.066667rem;
+    background: #1296DB;
+    opacity: 0.7;
+}
+#Car footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+}
+#Car footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+}

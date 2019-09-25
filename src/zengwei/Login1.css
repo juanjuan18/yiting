@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0
+}
+html, body, #app, #home {
+  height: 100%;
+  width: 100%;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+body a:hover{
+    text-decoration: none;
+}
+
+#login1{
+    min-height: 17.786667rem;
+    background: url(../images/44.jpg)center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    position:fixed;
+    z-index: 200;
+}
+#login1 .app{
+    min-height:  17.786667rem;
+    background: rgba(255,255,255,0.4);
+    /* display: flex; */
+}
+#login1 .lefta{
+    position: absolute;
+    left: .266667rem;
+    top: .266667rem;
+    height: .533333rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    background: transparent;
+    z-index: 3;
+}
+
+
+/* .main{
+    padding-top: .4rem;
+} */
+#login1 .main img{
+    width: 4.8rem;
+    height: 3.146667rem;
+    padding-bottom: .8rem;
+    display: block;
+    margin: 0 auto;
+}
+#login1 .search{
+    width: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: .533333rem;
+}
+#login1 .search1{
+    width: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: .533333rem;
+}
+#login1 .main input{
+    height: 1.066667rem;
+    width: 8rem;
+    border: none;
+    text-indent: 2em;
+    color: #999;
+    font-size: .373333rem;
+    background: rgba(255,255,255,0.7);
+}
+#login1 #huoqu{
+    margin: 0 auto;
+    margin-top: .533333rem;
+    height: 1.066667rem;
+    width: 8rem;
+    border-radius: .8rem;
+    display: block;
+    color: #999;
+    font-size: .373333rem;
+    text-align: center;
+    line-height:  1.066667rem;
+    background: rgba(255,255,255,0.7);
+}
+#login1 .main p{
+    width: 8rem;
+    margin: 0 auto;
+    margin-top: .8rem;
+    font-size: .373333rem;
+}
+#login1 .main p a{
+    color: #333;
+    float: left;
+}
+#login1 .main p a:nth-child(2){
+    float: right;
+}
+
+
+/* 其他登录方式 */
+#login1 .Other-login{
+    /* min-height:10.666667rem;  */
+    padding-top: 3.466667rem;
+}
+#login1 p.other2{
+    color: #fff;
+    text-align: center;
+    font-size: .373333rem;
+    margin-bottom: .8rem;
+    position: relative;
+}
+#login1 p.other2::before{
+    content: "";
+    width: 3.733333rem;
+    display: block;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    top: .24rem;
+    left: 0px;
+}
+#login1 p.other2::after{
+    content: "";
+    width: 3.733333rem;
+    display: block;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    top: .24rem;
+    left: 6.293333rem;
+}
+#login1 .Other-login ul{
+    width: 5.6rem;
+    margin: 0 auto;
+}
+#login1 .Other-login ul li{
+    float: left;
+    margin-right: .746667rem;
+}
+.Other-login ul li a img{
+    width: 1.066667rem;
+    height: 1.066667rem;
+}
+#login1 .Other-login ul li a .weixx{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#login1 p.xieyi{
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+    font-size: .373333rem;
+    margin-top: .266667rem;
+}
+#login1 .Other-login p a{
+    color: #0066FF;
+}
+.am-toast-mask{
+    background-color:rgb(105, 97, 97);
+    border-radius: .3rem;
+    border:1px solid white;
+    position:fixed;
+    left:3rem;
+    top:5rem;
+    z-index:500;
+    text-align: center;
+}
+.am-toast-text-info{
+    text-align: center;
+    color:#999
+}
+

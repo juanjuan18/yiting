@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #allmap {
+            width: 100%;
+            height: 80%;
+            position: fixed;
+            top: 0;
+        }
+    </style>
+    <script type="text/javascript"
+        src="http://api.map.baidu.com/api?v=2.0&ak=ou3xIgU9GX9VllK2UoixbxLXqTSe2NQk"></script>
+    <title>地图展示</title>
+    <link rel="stylesheet" href="../css/yudingchewei.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+</head>
+
+<body>
+    <div class="search">
+        <a href="../index.html" class="iconfont icon-arrow-left"></a>
+        <a href="hanbaobao.html" class="iconfont icon-caidan1"></a>
+        <div class="destination iconfont icon-sousuo-copy ">
+            <a href="sousuokongchewei.html"><input type="text" value="您要去哪儿？"></a>
+            <div class="iconfont icon-icon_voice_b"></div>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="kaishidaohang.html">导航</a>
+    </div>
+    <div class="other">
+        <a href="">更多车场</a>
+    </div>
+    <div class="hide">
+        <ul>
+            <li><a>推荐车场</a></li>
+            <li><a>免费车场</a></li>
+            <li><a>全部车场</a></li>
+        </ul>
+    </div>
+    <div class="iconfont icon-location"></div>
+    <div class="iconfont icon-dingwei1"></div>
+    <footer>
+        <ul>
+            <li>
+                <a href="../index.html">
+                    <div class="iconfont icon-fangzi2"></div>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="cheweiyuding.html">
+                    <div class="iconfont icon-che"></div>
+                    <span>车位预订</span>
+                </a>
+            </li>
+            <li>
+                <a href="qianbao.html">
+                    <div class="iconfont icon-qianbi1"></div>
+                    <span>钱包</span>
+                </a>
+            </li>
+            <li>
+                <a href="gerenzhongxin.html">
+                    <div class="iconfont icon-icon-test1"></div>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <div id="allmap"></div>
+    <div class="nearby">
+        <a href="hanbaobao.html">点击展开附近更多停车场</a>
+    </div>
+</body>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");    // 创建Map实例
+    // map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+        mapTypes: [
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]
+    }));
+    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+    // map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    map.centerAndZoom("成都", 12);
+    map.enableScrollWheelZoom(true);   //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom(true);    //启用地图惯性拖拽，默认禁用
+</script>
+
+</html>

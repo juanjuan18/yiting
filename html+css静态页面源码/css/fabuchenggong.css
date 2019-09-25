@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mengban{
+    width: 9.973333rem;
+    height:21.333333rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.sccussful{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(87, 84, 84, 0.6);
+    border-radius: .213333rem;
+    position: absolute;
+    top: calc(50% - 2rem);
+    left: calc(50% - 2rem);
+    z-index: 3;
+}
+.sccussful p{
+    color: white;
+    text-align: center;
+}
+.sccussful p:nth-child(1){
+    font-size: 2.133333rem; 
+}
+.sccussful p:nth-child(2){
+    font-size: .426667rem;
+}
+.sure{
+    height: .48rem;
+    width: .8rem;
+    padding:.133333rem .266667rem;
+    font-size: .373333rem;
+    border:1px #EEE solid; 
+    color: white;
+    text-align: center; 
+    margin: .266667rem auto;
+    border-radius: .213333rem;
+}

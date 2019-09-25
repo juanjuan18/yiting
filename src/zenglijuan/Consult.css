@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+#Consult a{
+    text-decoration: none !important;
+}
+#Consult header{
+    width: 10rem;
+    background: #868686;
+    position: fixed;
+    z-index: 100;
+}
+#Consult .headContent{
+    width: 9.466667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+#Consult .headContent span{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: .373333rem;
+    left: 0;
+}
+#Consult .headContent a:nth-child(1){
+    position: absolute;
+    left: 0;
+    height: 1.066667rem;
+    color: #fff;
+    font-size: .32rem;
+    text-decoration: none;
+    z-index: 3;
+}
+/* .headContent a:nth-child(3){
+    position: absolute;
+    right: 0;
+    height: 1.066667rem;
+    color: #fff;
+    text-decoration: none;
+    z-index: 2;
+} */
+#Consult .headContent i{
+    font-size: .32rem;
+}
+
+/*section*/
+#Consult section{
+    height: 17.786667rem;
+    background: #E4E4E4;
+}
+#Consult section .zaixianzixun{
+    width: 100%;
+    padding-top: 1.066667rem;
+    height: 16rem;
+}
+#Consult section .kefu{
+    width: 100%;
+    padding-top: .533333rem;
+    height: 4.8rem;
+    position: relative;
+}
+#Consult .kefu a{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: .4rem;
+    top: 2.8rem;
+}
+#Consult .kefu a span{
+    width: .8rem;
+    height: .8rem;
+    background: #16BE10;
+    position: absolute;
+    left: calc(50% - .4rem);
+    top: calc(50% - .4rem);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: .8rem;
+}
+#Consult .kefu img{
+    width: .8rem;
+    height: .533333rem;
+    position: absolute;
+    left: 1.533333rem;
+    top: 3.066667rem;
+}
+#Consult .kefu p{
+    width: 4.8rem;
+    height: 2.666667rem;
+    background: white;
+    border-radius: .266667rem;
+    position: absolute;
+    left:2.133333rem;
+    top: 1.666667rem;
+    padding: .533333rem .533333rem;
+}
+#Consult section .user{
+    width: 100%;
+    padding-top: 2.133333rem;
+    height: 4.8rem;
+    position: relative;
+}
+#Consult .user a{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    right: .4rem;
+    top: 2.8rem;
+}
+#Consult .user a img{
+    width: .8rem;
+    height: .8rem;
+    /* background: #16BE10; */
+    position: absolute;
+    left: calc(50% - .4rem);
+    top: calc(50% - .4rem);
+    /* color: white; */
+    /* border-radius: 50%; */
+    /* text-align: center;
+    line-height: .8rem; */
+}
+#Consult .user img{
+    width: .8rem;
+    height: .533333rem;
+    position: absolute;
+    right: 1.466667rem;
+    top: 3.066667rem;
+}
+#Consult .user p{
+    width: 4.8rem;
+    height: 1.333333rem;
+    background: white;
+    border-radius: .266667rem;
+    position: absolute;
+    left:2.133333rem;
+    top: 2.666667rem;
+    padding: .533333rem .533333rem;
+}
+
+/*底部*/
+#Consult footer{
+    width: 100%;
+    height: 1.6rem;
+    background: #E4E4E4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1.5px solid white;
+   
+}
+#Consult footer .bottom_inp{
+    width: 9.466667rem;
+    height: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Consult footer input{
+    border: none;
+    outline: none;
+    width: 7.866667rem;
+    height: .853333rem;
+    border-radius: .08rem; 
+    font-size: .373333rem;
+    padding-left: .266667rem;
+    color: #797777;
+}
+#Consult footer .bottom_inp a{
+    width: .853333rem;
+    height: .853333rem;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: .533333rem;
+    font-weight: 600;
+    color: #797777;
+    line-height: .853333rem;
+    border: 1px solid #797777;
+    /* position: absolute;
+    left: .4rem;
+    top: 2.8rem; */
+}

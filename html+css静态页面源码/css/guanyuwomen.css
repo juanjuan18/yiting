@@ -1,0 +1,50 @@
+.main{
+    text-align: center;
+}
+.main img{
+    width: 1.6rem;
+    margin-top: 20px;
+}
+.main h1{
+    margin: 20px 0;
+    color: #333;
+    font-size: 18px;
+}
+.main p{
+    padding: 0 30px;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.list{
+    width: 10rem;
+    line-height: 40px;
+    background: #fff;
+    color: #333333;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+.Content{
+    width: 9.466667rem;
+    margin: 0 auto;
+}
+.span1{
+    float: right;
+    color: #999;
+    line-height: 40px;
+}
+.span2{
+    color: #07AF12;
+}
+.span2 .icon-left-angle{
+    color: #999;
+}
+footer ul li:nth-child(4) .iconfont{
+    color: rgb(37, 37, 37);
+}
+footer ul li:nth-child(4) a span{
+    color: rgb(0, 0, 0);
+}

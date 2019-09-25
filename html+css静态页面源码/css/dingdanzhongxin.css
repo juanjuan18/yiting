@@ -1,0 +1,80 @@
+body a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+header a {
+  z-index: 16;
+}
+section {
+  background-color: #f2f2f2;
+  left: 0;
+}
+section .type {
+  position: fixed;
+  left: 0;
+  top: 1.066667rem;
+  width: 10rem;
+  height: 1.333333rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .type .all {
+  color: #fd7607;
+}
+section .tou {
+  width: 10rem;
+  height: 1px;
+  margin-top: 90px;
+  background-color: #f2f2f2;
+}
+section .dingdan {
+  width: 9.413333rem;
+  height: 3.2rem;
+  margin: 0 auto;
+  margin-top: .266667rem;
+  border: 1px solid #eee;
+  background-color: white;
+}
+section .dingdan div {
+  width: 8.373333rem;
+  height: .8rem;
+  margin: 0 auto;
+  line-height: .8rem;
+}
+section .dingdan div .left {
+  float: left;
+}
+section .dingdan div .right {
+  float: right;
+}
+section .dingdan div .last {
+  float: right;
+}
+section .dingdan div .last_a {
+  float: left;
+}
+section .dingdan .second i {
+  color: #bfbfbf;
+}
+section .dingdan .third i {
+  color: #1afa29;
+}
+section .xinxi {
+  width: 10rem;
+  margin-top: .533333rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+section .xinxi p {
+  color: #bfbfbf;
+}
